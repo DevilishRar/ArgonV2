@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argon</title>
+    <link rel="icon" type="image/png" href="https://iili.io/2e43a5b.png">
+    <meta content="Argon" property="og:title" />
+    <meta content="The Most Advanced Roblox Executor" property="og:description" />
+    <meta content="https://iili.io/2e43a5b.png" property="og:image" />
+    <meta content="#4d9fff" data-react-helmet="true" name="theme-color" />
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="preloader">
+        <div class="preloader-content">
+            <img src="https://getargon.vercel.app/argon.png" alt="Argon Logo" class="preloader-logo">
+            <div class="loading-bar-container">
+                <div class="loading-bar"></div>
+            </div>
+            <p class="loading-text">Injecting Power <span class="loading-dots">...</span></p>
+        </div>
+    </div>
+
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-dot"></div>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <a href="#hero">
+                        <img src="https://getargon.vercel.app/argon.png" alt="Argon Logo">
+                        <span>ARGON</span>
+                    </a>
+                </div>
+                <nav class="main-nav">
+                    <ul class="nav-list">
+                        <li><a href="#hero" class="active">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#showcase">Showcase</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#download" class="download-btn">Download v3.0</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-nav-toggle">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-nav">
+        <ul class="mobile-nav-list">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#showcase">Showcase</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#download" class="download-btn">Download v3.0</a></li>
+        </ul>
+    </div>
+
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="animated-text">Unleash <span class="highlight">Unlimited</span> Power</h1>
+                    <h2>ARGON <span class="version">v3</span></h2>
+                    <p>The most powerful <span class="highlight">FREE</span> Roblox executor that bypasses Hyperion anti-cheat with <span class="users-count">10,000+</span> active users worldwide.</p>
+                    <div class="hero-buttons">
+                        <a href="#download" class="primary-btn">Download Now</a>
+                        <a href="#features" class="secondary-btn">Explore Features</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="https://iili.io/3TNwYlf.md.png" alt="Argon UI" class="floating">
+                        <div class="glowing-circle"></div>
+                    </div>
+                    <div class="floating-elements">
+                        <div class="floating-element element-1">10K+ Users</div>
+                        <div class="floating-element element-2">Anti-Ban</div>
+                        <div class="floating-element element-3">Free Forever</div>
+                        <div class="floating-element element-4">Hyperion Bypass</div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="arrow-scroll">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <canvas id="particles-js"></canvas>
+        <div class="section-divider hero-divider"></div>
+    </section>
+
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-heading">Why Choose Argon?</span>
+                <h2>Unrivaled <span class="highlight">Features</span></h2>
+                <p>Engineered to provide the ultimate execution experience with advanced capabilities</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Hyperion Bypass</h3>
+                    <p>Successfully bypasses Roblox's Hyperion anti-cheat system with our proprietary technology.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Lightning Speed</h3>
+                    <p>Optimized code execution with minimal latency for seamless gaming experience.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Script Hub</h3>
+                    <p>Access to a vast library of pre-made scripts for popular Roblox games.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>Anti-Ban Protection</h3>
+                    <p>Advanced protection measures to keep your account safe while using Argon.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>100% Free</h3>
+                    <p>No hidden costs or premium features. Everything is accessible to everyone for free.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>Regular Updates</h3>
+                    <p>Constant improvements and updates to stay ahead of Roblox security measures.</p>
+                </div>
+            </div>
+        </div>
+        <div class="section-divider features-divider"></div>
+    </section>
+
+    <section id="showcase" class="showcase-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-heading">See it in Action</span>
+                <h2>Argon <span class="highlight">Showcase</span></h2>
+                <p>Witness the power and elegance of Argon Executor in action</p>
+            </div>
+            <div class="showcase-content">
+                <div class="showcase-tabs">
+                    <button class="tab-btn active" data-tab="interface">Interface</button>
+                    <button class="tab-btn" data-tab="scripts">Script Execution</button>
+                    <button class="tab-btn" data-tab="games">Games Compatibility</button>
+                </div>
+                <div class="showcase-viewer">
+                    <div class="tab-content active" id="interface">
+                        <div class="showcase-item">
+                            <div class="showcase-image">
+                                <img src="https://iili.io/3TNwYlf.md.png" alt="Argon Interface">
+                                <div class="image-overlay">
+                                    <span class="zoom-icon"><i class="fas fa-search-plus"></i></span>
+                                </div>
+                            </div>
+                            <div class="showcase-description">
+                                <h3>Sleek Modern Interface</h3>
+                                <p>Argon features a clean, intuitive interface designed for both beginners and advanced users. The dark-themed UI reduces eye strain during extended usage sessions.</p>
+                                <ul class="feature-list">
+                                    <li><i class="fas fa-check"></i> Customizable themes</li>
+                                    <li><i class="fas fa-check"></i> Multi-tab script editing</li>
+                                    <li><i class="fas fa-check"></i> Code highlighting</li>
+                                    <li><i class="fas fa-check"></i> Script organization</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="scripts">
+                        <div class="showcase-item">
+                            <div class="showcase-image">
+                                <img src="https://iili.io/3TOxo2R.md.png" alt="Script Execution">
+                                <div class="image-overlay">
+                                    <span class="zoom-icon"><i class="fas fa-search-plus"></i></span>
+                                </div>
+                            </div>
+                            <div class="showcase-description">
+                                <h3>Powerful Script Execution</h3>
+                                <p>Execute complex scripts with ease. Argon's advanced execution engine handles even the most demanding scripts without crashing or lagging your game.</p>
+                                <ul class="feature-list">
+                                    <li><i class="fas fa-check"></i> Support for complex Lua scripts</li>
+                                    <li><i class="fas fa-check"></i> Multiple execution methods</li>
+                                    <li><i class="fas fa-check"></i> Script debugging tools</li>
+                                    <li><i class="fas fa-check"></i> Error handling</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="games">
+                        <div class="showcase-item">
+                            <div class="showcase-image">
+                                <img src="https://iili.io/3TOTRQ1.md.png" alt="Games Compatibility">
+                                <div class="image-overlay">
+                                    <span class="zoom-icon"><i class="fas fa-search-plus"></i></span>
+                                </div>
+                            </div>
+                            <div class="showcase-description">
+                                <h3>Universal Game Compatibility</h3>
+                                <p>Argon works flawlessly across all Roblox games. Our compatibility layer ensures scripts run as intended regardless of the game environment.</p>
+                                <ul class="feature-list">
+                                    <li><i class="fas fa-check"></i> Compatible with all Roblox games</li>
+                                    <li><i class="fas fa-check"></i> Game-specific script optimization</li>
+                                    <li><i class="fas fa-check"></i> Special support for popular games</li>
+                                    <li><i class="fas fa-check"></i> Real-time adaptation to game updates</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-divider showcase-divider"></div>
+    </section>
+
+    <section class="counter-section">
+        <div class="container">
+            <div class="counters">
+                <div class="counter-item">
+                    <div class="counter-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="counter-number" data-count="10000">0</div>
+                    <div class="counter-text">Active Users</div>
+                </div>
+                <div class="counter-item">
+                    <div class="counter-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <div class="counter-number" data-count="850">0</div>
+                    <div class="counter-text">Compatible Games</div>
+                </div>
+                <div class="counter-item">
+                    <div class="counter-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="counter-number" data-count="1200">0</div>
+                    <div class="counter-text">Scripts Executed</div>
+                </div>
+                <div class="counter-item">
+                    <div class="counter-icon">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <div class="counter-number" data-count="25000">0</div>
+                    <div class="counter-text">Total Downloads</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-heading">What Users Say</span>
+                <h2>User <span class="highlight">Testimonials</span></h2>
+                <p>Join thousands of satisfied users experiencing the power of Argon</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-nav">
+                    <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="testimonials-wrapper">
+                    <div class="testimonial-item active">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p>Argon is by far the best executor I've ever used. It's fast, reliable, and I've never had any issues with bans. The script hub is a game-changer!</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <img src="https://cdn.pixabay.com/photo/2015/03/04/22/35/avatar-659651_960_720.png" alt="User Avatar">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Alex M.</h4>
+                                    <p>Using since 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p>I can't believe Argon is completely free! I've tried paid executors that don't perform half as well. The Hyperion bypass is incredible - works flawlessly every time.</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <img src="https://cdn.pixabay.com/photo/2016/11/18/23/38/child-1837375_960_720.png" alt="User Avatar">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Sarah K.</h4>
+                                    <p>Using since 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p>As a script developer, I appreciate how Argon handles complex scripts with ease. The debugging features and code highlighting are perfect for creating and testing new scripts.</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="User Avatar">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Marcus J.</h4>
+                                    <p>Script Developer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-indicators">
+                    <span class="indicator active"></span>
+                    <span class="indicator"></span>
+                    <span class="indicator"></span>
+                </div>
+            </div>
+        </div>
+        <div class="section-divider testimonials-divider"></div>
+    </section>
+
+    <section id="download" class="download-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-heading">Get Started Now</span>
+                <h2>Download <span class="highlight">Argon v3</span></h2>
+                <p>Experience the next generation of Roblox execution - completely free</p>
+            </div>
+            <div class="download-content">
+                <div class="download-info">
+                    <div class="version-info">
+                        <div class="version-badge">v3.0</div>
+                        <div class="update-date">Latest Update: March 2025</div>
+                    </div>
+                    <ul class="download-features">
+                        <li><i class="fas fa-check-circle"></i> Hyperion Anti-Cheat Bypass</li>
+                        <li><i class="fas fa-check-circle"></i> Full Script Execution</li>
+                        <li><i class="fas fa-check-circle"></i> Script Hub Access</li>
+                        <li><i class="fas fa-check-circle"></i> Anti-Ban Protection</li>
+                        <li><i class="fas fa-check-circle"></i> Auto-Updates</li>
+                    </ul>
+                    <div class="download-actions">
+                        <a href="#" class="download-btn primary-btn">
+                            <i class="fas fa-download"></i>
+                            Download Now
+                        </a>
+                        <div class="download-size">
+                            <i class="fas fa-file-archive"></i>
+                            <span>Size: 1.2 MB</span>
+                        </div>
+                    </div>
+                    <div class="os-compatibility">
+                        <span class="os-label">Compatible with:</span>
+                        <div class="os-icons">
+                            <span class="os-icon"><i class="fab fa-windows"></i> Windows 10/11</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="download-visual">
+                    <div class="device-mockup">
+                        <img src="https://iili.io/3TNwYlf.md.png" alt="Argon on Device">
+                        <div class="pulse-effect"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-divider download-divider"></div>
+    </section>
+
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-heading">Got Questions?</span>
+                <h2>Frequently Asked <span class="highlight">Questions</span></h2>
+                <p>Find answers to common questions about Argon</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is Argon really free to use?</h3>
+                        <div class="faq-icon">
+                            <i class="fas fa-plus"></i>
+                            <i class="fas fa-minus"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, Argon is completely free to use. There are no premium features or hidden costs. We believe in providing powerful tools accessible to everyone.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is it safe to use Argon? Will I get banned?</h3>
+                        <div class="faq-icon">
+                            <i class="fas fa-plus"></i>
+                            <i class="fas fa-minus"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Argon features our proprietary Hyperion bypass technology, which significantly reduces the risk of detection. However, as with any executor, there's always a small risk. We recommend using alt accounts for complete peace of mind.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How often is Argon updated?</h3>
+                        <div class="faq-icon">
+                            <i class="fas fa-plus"></i>
+                            <i class="fas fa-minus"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We update Argon frequently to keep up with Roblox updates and security patches. Typically, we release major updates monthly and minor patches weekly as needed.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Will Argon work on all Roblox games?</h3>
+                        <div class="faq-icon">
+                            <i class="fas fa-plus"></i>
+                            <i class="fas fa-minus"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, Argon is designed to work with all Roblox games. Some games may have additional security measures, but our executor is continuously updated to handle these challenges.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is Argon a virus? My antivirus flags it.</h3>
+                        <div class="faq-icon">
+                            <i class="fas fa-plus"></i>
+                            <i class="fas fa-minus"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Argon is not a virus. However, like many game modification tools, it may trigger false positives in some antivirus software due to its nature. Our code is open for review and we maintain transparency with our user base.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I report bugs or request features?</h3>
+                        <div class="faq-icon">
+                            <i class="fas fa-plus"></i>
+                            <i class="fas fa-minus"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can report bugs or request features through our Discord server. We actively listen to community feedback and implement popular requests in future updates.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-divider faq-divider"></div>
+    </section>
+
+    <section class="community-section">
+        <div class="container">
+            <div class="community-content">
+                <div class="community-text">
+                    <h2>Join Our <span class="highlight">Community</span></h2>
+                    <p>Connect with 10,000+ Argon users, share scripts, get help, and stay updated on the latest features and updates.</p>
+                    <div class="community-links">
+                        <a href="#" class="community-link discord">
+                            <i class="fab fa-discord"></i>
+                            Join Discord
+                        </a>
+                        <a href="#" class="community-link youtube">
+                            <i class="fab fa-youtube"></i>
+                            YouTube Channel
+                        </a>
+                    </div>
+                </div>
+                <div class="community-image">
+                    <img src="https://iili.io/3TOBCR1.md.png" alt="Community">
+                    <div class="floating-members">
+                        <div class="member-bubble">
+                            <img src="https://cdn.pixabay.com/photo/2018/08/28/13/29/avatar-3637561_960_720.png" alt="Community Member">
+                        </div>
+                        <div class="member-bubble">
+                            <img src="https://cdn.pixabay.com/photo/2016/11/18/23/38/child-1837375_960_720.png" alt="Community Member">
+                        </div>
+                        <div class="member-bubble">
+                            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="Community Member">
+                        </div>
+                        <div class="member-bubble more-members">
+                            <span>10k+</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-divider community-divider"></div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <img src="https://getargon.vercel.app/argon.png" alt="Argon Logo">
+                    <h3>ARGON</h3>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-links-column">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="#hero">Home</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#showcase">Showcase</a></li>
+                            <li><a href="#testimonials">Testimonials</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-column">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#">Script Hub</a></li>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Tutorials</a></li>
+                            <li><a href="#">Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
+                            <li><a href="#">Disclaimer</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-column">
+                        <h4>Connect</h4>
+                        <ul class="social-links">
+                            <li><a href="#"><i class="fab fa-discord"></i> Discord</a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i> YouTube</a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                            <li><a href="#"><i class="fab fa-github"></i> GitHub</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2025 Argon. All Rights Reserved.</p>
+                    <p class="disclaimer">Argon is not affiliated with Roblox Corporation.</p>
+                </div>
+                <div class="footer-buttons">
+                    <a href="#" class="footer-btn">Support</a>
+                    <a href="#download" class="footer-btn download">Download Now</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+    <div class="image-preview-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img src="" alt="Preview Image" id="preview-image">
+            <div class="modal-caption"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.11.4/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
